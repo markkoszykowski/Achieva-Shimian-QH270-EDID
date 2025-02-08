@@ -2,7 +2,7 @@
 
 This repo contains the EDID binary (```shimian.bin```) required to set up the Achieva Shimian QH270 monitor on Linux (tested on Arch Linux with an Apple Mini DisplayPort to Dual-Link DVI Adapter).
 
-The EDID binary was extracted using MacOS, and then hand modified to make it compliant with the EDID standard. In specific, the additional block extension, which contained nullified data, was removed
+The EDID binary was extracted using MacOS, and then hand modified to make it compliant with the EDID standard. In specific, the additional extension block, which contained nullified data, was removed
 and Block 0's checksum was updated accordingly.
 
 Display configuration:
